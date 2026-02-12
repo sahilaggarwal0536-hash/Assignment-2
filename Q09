@@ -1,0 +1,8 @@
+num = 0
+total = 0
+
+while num <= 500:
+    total += num
+    num += 5
+
+print("Sum =", total)

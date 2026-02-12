@@ -1,0 +1,7 @@
+notes100 = int(input("Enter number of 100 notes: "))
+notes500 = int(input("Enter number of 500 notes: "))
+notes2000 = int(input("Enter number of 2000 notes: "))
+
+total = (notes100 * 100) + (notes500 * 500) + (notes2000 * 2000)
+
+print("Total amount withdrawn =", total)
